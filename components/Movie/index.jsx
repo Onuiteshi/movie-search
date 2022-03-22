@@ -24,7 +24,7 @@ const Movie = () => {
   const handleKeyPress = async (event) => {
     if (event.key === "Enter") {
       await axios
-        .get(`http://www.omdbapi.com/?apikey=9ae9b020&s=${movie}`)
+        .get(`https://www.omdbapi.com/?apikey=9ae9b020&s=${movie}`)
         .then((res) => {
           console.log(res);
           setRes(res.data.Search);
