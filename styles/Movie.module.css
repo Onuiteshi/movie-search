@@ -1,0 +1,27 @@
+.movie {
+  padding: 5rem 0;
+}
+
+.card {
+  min-height: 20rem;
+  width: 90% !important;
+  position: relative;
+  overflow: hidden;
+  /* display: block !important; */
+}
+
+.picture {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  position: absolute;
+  color: #fff;
+  bottom: 0;
+  background-color: #000;
+
+  width: 100%;
+  height: fit-content;
+}

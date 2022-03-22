@@ -54,3 +54,35 @@
     transform: translate(0);
   }
 }
+
+/* Mobile Responsiveness */
+
+@media screen and (max-width: 600px) {
+  .logoDiv {
+    padding: 0.2rem 0;
+    justify-content: center !important;
+  }
+  .heading {
+    text-align: center;
+  }
+  .heading1 {
+    font-size: 4rem;
+  }
+
+  .heading2 {
+    font-size: 4rem;
+  }
+
+  .heading3 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 920px) {
+  .logoDiv {
+    justify-content: center !important;
+  }
+  .heading {
+    text-align: center;
+  }
+}

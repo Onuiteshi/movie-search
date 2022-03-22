@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../public/assets/Logo.png";
+import Logo from "../../public/assets/Logo (1).png";
 import Image from "next/image";
 import styles from "../../styles/Header.module.css";
 

@@ -18,6 +18,17 @@ body {
   line-height: 1.7;
 }
 
+label {
+  font-size: 2rem;
+}
+
+input,
+button,
+select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 a {
   color: inherit;
   text-decoration: none;
